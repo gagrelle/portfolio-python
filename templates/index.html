@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de João Gilbert Agrelle, desenvolvedor Python em formação com foco em Backend, automação e IA Generativa.">
+    <meta name="theme-color" content="#07100e">
+    <meta property="og:title" content="João Gilbert Agrelle | Python & Backend">
+    <meta property="og:description" content="Processos, dados e código para resolver problemas reais.">
+    <title>João Gilbert Agrelle | Python & Backend</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Início">
+          <span aria-hidden="true">&lt;</span>joao.dev<span aria-hidden="true">/&gt;</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#sobre">sobre</a>
+          <a href="#experiencia">experiência</a>
+          <a href="#projetos">projetos</a>
+          <a href="#contato">contato</a>
+          <a class="nav-download" href="{{ url_for('download_curriculum') }}">currículo.pdf ↓</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section" id="inicio">
+        <div class="hero-noise" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span class="status-dot"></span> disponível para novas oportunidades</div>
+            <p class="code-label">// backend · automação · IA generativa</p>
+            <h1>Transformo processos em <span>código que resolve.</span></h1>
+            <p class="hero-lead">Sou João Gilbert, desenvolvedor Python em formação. Uno visão operacional, análise de dados e tecnologia para criar soluções simples, úteis e confiáveis.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↘</span></a>
+              <a class="button button-ghost" href="mailto:joaogilbert795@gmail.com">Vamos conversar</a>
+            </div>
+            <div class="hero-meta" aria-label="Informações rápidas">
+              <div><span>localização</span><strong>Recife, PE</strong></div>
+              <div><span>formação</span><strong>ADS · 2026—2028</strong></div>
+              <div><span>foco atual</span><strong>Python / Backend</strong></div>
+            </div>
+          </div>
+
+          <div class="terminal-wrap reveal" data-delay="120">
+            <div class="terminal" aria-label="Terminal interativo">
+              <div class="terminal-bar">
+                <div class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+                <span>joao@portfolio:~</span>
+                <span class="terminal-live"><i></i> live</span>
+              </div>
+              <div class="terminal-body" id="terminal-output" role="log" aria-live="polite">
+                <p><span class="prompt">$</span> python perfil.py</p>
+                <div class="terminal-card">
+                  <p><span class="key">nome</span>: <span class="string">"João Gilbert Agrelle"</span></p>
+                  <p><span class="key">função</span>: <span class="string">"Python Developer"</span></p>
+                  <p><span class="key">objetivo</span>: <span class="string">"Backend + IA"</span></p>
+                  <p><span class="key">mindset</span>: <span class="string">"aprender, criar, melhorar"</span></p>
+                </div>
+                <p class="terminal-hint">Digite <strong>ajuda</strong> para explorar.</p>
+              </div>
+              <form class="terminal-form" id="terminal-form" autocomplete="off">
+                <label for="terminal-input" class="sr-only">Comando do terminal</label>
+                <span class="prompt">$</span>
+                <input id="terminal-input" name="command" placeholder="tente: projetos" spellcheck="false">
+                <button type="submit" aria-label="Executar comando">enter ↵</button>
+              </form>
+            </div>
+            <p class="keyboard-tip"><kbd>Ctrl</kbd> + <kbd>K</kbd> abre o terminal</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="tech-strip" aria-label="Tecnologias">
+        <div class="container tech-track">
+          <span>PYTHON</span><i></i><span>FLASK</span><i></i><span>HTML5</span><i></i><span>CSS3</span><i></i><span>AUTOMAÇÃO</span><i></i><span>DADOS</span><i></i><span>IA GENERATIVA</span>
+        </div>
+      </div>
+
+      <section class="section about" id="sobre">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><span>01.</span><p>quem sou</p></div>
+            <h2>Operação na prática.<br><em>Tecnologia com propósito.</em></h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-main panel reveal">
+              <span class="panel-tag">perfil.json</span>
+              <p>Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, com formação técnica em Desenvolvimento de Sistemas e experiência em ambientes operacionais.</p>
+              <p>Uso planilhas, controles e análise para reduzir trabalho manual, investigar divergências e melhorar processos. Hoje, desenvolvo projetos em Python e web com foco em <strong>Backend e aplicações de IA Generativa.</strong></p>
+              <div class="signature">JGA<span>_</span></div>
+            </article>
+            <article class="metric panel reveal" data-delay="80">
+              <span class="panel-tag">experiência</span>
+              <strong>02</strong>
+              <p>contextos profissionais conectando dados, organização e processos.</p>
+            </article>
+            <article class="metric panel accent-panel reveal" data-delay="140">
+              <span class="panel-tag">princípio</span>
+              <blockquote>“Entender o problema antes de escrever a solução.”</blockquote>
+              <div class="mini-code">if problema:<br>&nbsp;&nbsp;&nbsp;&nbsp;investigar()<br>&nbsp;&nbsp;&nbsp;&nbsp;automatizar()</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience" id="experiencia">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><span>02.</span><p>trajetória</p></div>
+            <h2>Experiência que vira<br><em>repertório técnico.</em></h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"><span>atual</span></div>
+              <div class="timeline-period">AGO 2025 — ATUAL</div>
+              <div class="timeline-content">
+                <p class="company">VULP AIR · JABOATÃO DOS GUARARAPES</p>
+                <h3>Estagiário em Análise de Estoque</h3>
+                <ul>
+                  <li>Conciliação de registros físicos e digitais com análise de divergências.</li>
+                  <li>Criação de controles, fórmulas e pequenas automações para reduzir tarefas manuais.</li>
+                  <li>Estruturação de processos e identificação de oportunidades de melhoria contínua.</li>
+                </ul>
+                <div class="tags"><span>Dados</span><span>Excel</span><span>Automação</span><span>Processos</span></div>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-marker"></div>
+              <div class="timeline-period">MAR 2023 — DEZ 2023</div>
+              <div class="timeline-content">
+                <p class="company">CW CONSULTORES · PERNAMBUCO</p>
+                <h3>Estagiário em Departamento Pessoal</h3>
+                <ul>
+                  <li>Apoio em admissões, desligamentos, eSocial e organização de prontuários digitais.</li>
+                  <li>Coleta e validação de dados para relatórios, folha, ponto e benefícios.</li>
+                </ul>
+                <div class="tags"><span>Validação</span><span>Relatórios</span><span>Sistemas</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projetos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><span>03.</span><p>projetos selecionados</p></div>
+            <h2>Ideias aplicadas a<br><em>problemas reais.</em></h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal" tabindex="0">
+              <div class="project-top"><span>01 / PYTHON</span><span class="project-icon" aria-hidden="true">↗</span></div>
+              <div class="project-visual dashboard-visual" aria-hidden="true">
+                <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="chart-line"></div>
+                <div class="visual-stat"><small>dados processados</small><strong>100%</strong></div>
+              </div>
+              <h3>Dashboard em Python</h3>
+              <p>Painel para organizar e visualizar informações, convertendo dados em apoio prático à análise e à tomada de decisão.</p>
+              <div class="tags"><span>Python</span><span>Dados</span><span>Visualização</span></div>
+            </article>
+
+            <article class="project-card reveal" data-delay="80" tabindex="0">
+              <div class="project-top"><span>02 / WEB</span><span class="project-icon" aria-hidden="true">↗</span></div>
+              <div class="project-visual flow-visual" aria-hidden="true">
+                <div class="flow-node active">entrada</div><i></i><div class="flow-node">triagem</div><i></i><div class="flow-node">concluído</div>
+              </div>
+              <h3>Controle de Devoluções</h3>
+              <p>Projeto web para estruturar o fluxo operacional e facilitar o acompanhamento das devoluções de materiais.</p>
+              <div class="tags"><span>HTML5</span><span>CSS3</span><span>Processos</span></div>
+            </article>
+
+            <article class="project-card reveal" data-delay="140" tabindex="0">
+              <div class="project-top"><span>03 / FRONTEND</span><span class="project-icon" aria-hidden="true">↗</span></div>
+              <div class="project-visual pages-visual" aria-hidden="true">
+                <div class="browser-mini"><span></span><b></b><b></b><b></b></div>
+                <div class="cursor-arrow">↖</div>
+              </div>
+              <h3>Landing Pages</h3>
+              <p>Páginas para projetos próprios e iniciativas comerciais, traduzindo necessidades de negócio em interfaces digitais.</p>
+              <div class="tags"><span>UI</span><span>Web</span><span>Negócio</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container skills-layout">
+          <div class="section-heading compact reveal">
+            <div><span>04.</span><p>stack & competências</p></div>
+            <h2>Ferramentas para<br><em>construir e evoluir.</em></h2>
+            <p class="section-copy">Uma base em desenvolvimento, dados e automação, sempre orientada à aplicação prática.</p>
+          </div>
+          <div class="skill-groups reveal" data-delay="100">
+            <div class="skill-group">
+              <span class="skill-index">[01]</span>
+              <div><h3>Desenvolvimento</h3><p>Python · HTML5 · CSS3 · Backend em formação</p></div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-index">[02]</span>
+              <div><h3>Dados & Operação</h3><p>Excel Avançado · Google Sheets · Gestão e análise de dados</p></div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-index">[03]</span>
+              <div><h3>Inteligência Artificial</h3><p>IA Generativa · Engenharia de Prompt · Automação de processos</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education">
+        <div class="container">
+          <div class="education-grid">
+            <div class="reveal">
+              <p class="code-label">// formação</p>
+              <article class="education-item">
+                <span>2026 — 2028</span><h3>UNINASSAU</h3><p>CST em Análise e Desenvolvimento de Sistemas</p>
+              </article>
+              <article class="education-item">
+                <span>2020 — 2022</span><h3>ETE Porto Digital</h3><p>Técnico em Desenvolvimento de Sistemas</p>
+              </article>
+            </div>
+            <div class="reveal" data-delay="100">
+              <p class="code-label">// cursos & certificações</p>
+              <div class="certificate-list">
+                <div><span>01</span><p>Engenharia de Prompt</p><i>✓</i></div>
+                <div><span>02</span><p>Excel Avançado · Udemy</p><i>✓</i></div>
+                <div><span>03</span><p>Google Sheets · Udemy</p><i>✓</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato">
+        <div class="container contact-inner reveal">
+          <p class="code-label">// pronto para o próximo desafio</p>
+          <h2>Vamos construir algo<br><span>que faça diferença?</span></h2>
+          <p>Estou em busca de uma oportunidade de estágio em tecnologia, com foco em Python, Backend e IA Generativa.</p>
+          <div class="contact-actions">
+            <a class="button button-light" href="mailto:joaogilbert795@gmail.com">Enviar um e-mail <span>↗</span></a>
+            <button class="copy-email" type="button" data-email="joaogilbert795@gmail.com">copiar e-mail</button>
+          </div>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-gilbert-agrelle-990378262" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="tel:+5581996775491">+55 (81) 99677-5491 ↗</a>
+            <a href="{{ url_for('download_curriculum') }}">Baixar currículo ↧</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p><span aria-hidden="true">&lt;/&gt;</span> João Gilbert Agrelle</p>
+        <p>Desenvolvido com Python, Flask e café.</p>
+        <p>Recife · 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>
