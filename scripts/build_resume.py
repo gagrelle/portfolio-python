@@ -102,7 +102,7 @@ def draw_resume() -> Path:
     c.setTitle("Currículo - João Gilbert Agrelle")
     c.setAuthor("João Gilbert Agrelle")
     c.setSubject("Currículo para estágio em Python, Backend e IA Generativa")
-    c.setKeywords("Python, Backend, Automação, IA Generativa, Estágio")
+    c.setKeywords("Python, Java, Backend, Automação, IA Generativa, Estágio")
 
     sidebar_width = 165
     main_x = 190
@@ -136,7 +136,7 @@ def draw_resume() -> Path:
 
     sidebar_top = section_title(c, "Competências", sidebar_x, sidebar_top, sidebar_inner_width, light=True)
     for item in [
-        "Python e Backend",
+        "Python, Java e Backend",
         "HTML5 e CSS3",
         "Automação de processos",
         "Excel Avançado",
