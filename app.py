@@ -27,7 +27,7 @@ def profile_status():
     return jsonify(
         {
             "name": "João Gilbert Agrelle",
-            "role": "Desenvolvedor Python em formação",
+            "role": "Desenvolvedor Java em formação",
             "location": "Recife, PE",
             "availability": "Buscando estágio em Backend e IA Generativa",
             "status": "online",
