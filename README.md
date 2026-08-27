@@ -2,7 +2,7 @@
 
 # Olá, eu sou João Gilbert Agrelle 👋
 
-### Desenvolvedor Python em formação · Backend · Automação · IA Generativa
+### Desenvolvedor Java em formação · Backend · Automação · IA Generativa
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-gilbert-agrelle-990378262)
 [![E-mail](https://img.shields.io/badge/E--mail-Falar_comigo-B7F34B?style=for-the-badge&logo=gmail&logoColor=07100E)](mailto:joaogilbert795@gmail.com)
@@ -18,7 +18,7 @@ Atualmente desenvolvo projetos em Python e web e busco uma oportunidade de está
 ```python
 joao = {
     "localizacao": "Recife, PE",
-    "foco": ["Python", "Backend", "Automação", "IA Generativa"],
+    "foco": ["Java" , "Python", "Backend", "Automação", "IA Generativa"],
     "objetivo": "Criar tecnologia que resolva problemas reais",
     "status": "Aberto a oportunidades de estágio"
 }
@@ -26,7 +26,7 @@ joao = {
 
 ## Competências
 
-- **Desenvolvimento:** Python, HTML5, CSS3 e fundamentos de Backend
+- **Desenvolvimento:** Java, Python, HTML5, CSS3 e fundamentos de Backend
 - **Dados e produtividade:** Excel Avançado, Google Sheets, análise e gestão de dados
 - **Automação e IA:** automação de processos, IA Generativa e Engenharia de Prompt
 - **Visão de negócio:** organização, melhoria contínua e análise de processos
@@ -62,22 +62,6 @@ joao = {
 ## Este portfólio
 
 O repositório contém meu site-portfólio desenvolvido com **Python, Flask, HTML, CSS e JavaScript**. A interface tem inspiração em terminal e inclui comandos interativos, animações de entrada, navegação responsiva e download do currículo.
-
-### Executar localmente
-
-```bash
-python -m venv .venv
-```
-
-No Windows:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python app.py
-```
-
-Depois, acesse `http://127.0.0.1:5000`.
 
 ### Comandos do terminal interativo
 
