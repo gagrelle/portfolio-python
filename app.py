@@ -8,10 +8,6 @@ from pathlib import Path
 from flask import Flask, jsonify, render_template, send_from_directory
 
 
-BASE_DIR = Path(__file__).resolve().parent
-ORIGINAL_CURRICULUM_FILENAME = "Curriculo_Joao_Gilbert_Agrelle.pdf"
-UPDATED_CURRICULUM_FILENAME = "Curriculo_Joao_Gilbert_Agrelle_Atualizado.pdf"
-
 app = Flask(__name__)
 
 
@@ -33,30 +29,6 @@ def profile_status():
             "status": "online",
         }
     )
-
-
-@app.get("/curriculo")
-def download_curriculum():
-    """Disponibiliza o currículo original para download."""
-    return send_from_directory(
-        BASE_DIR / "output" / "pdf",
-        UPDATED_CURRICULUM_FILENAME,
-        as_attachment=True,
-        download_name=UPDATED_CURRICULUM_FILENAME,
-    )
-
-
-@app.get("/curriculo/original")
-def download_original_curriculum():
-    return send_from_directory(
-        BASE_DIR,
-        ORIGINAL_CURRICULUM_FILENAME,
-        as_attachment=True,
-        download_name=ORIGINAL_CURRICULUM_FILENAME,
-    )
-
-
-
 
 @app.get("/health")
 def health():
